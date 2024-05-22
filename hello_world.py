@@ -4,9 +4,9 @@ print("Hello World")
 name = "Noelle"
 print("Hello",name)	# with a comma
 print("Hello "+name)	# with a +
-age = 42
-print("Hello",age)	# with a comma
-print("Hello "+str(age))	# with a +	-- this one should give us an error!
+name = 42
+print("Hello",name)	# with a comma
+print("Hello "+str(name))	# with a +	-- this one should give us an error!
 # 4. print "I love to eat sushi and pizza." with the foods in variables
 fave_food1 = "sushi"
 fave_food2 = "pizza"
